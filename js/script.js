@@ -22,7 +22,7 @@ const buttonFighter2 = document.getElementById("buttonFighter2");
 
 function chooseFighter(imagen){
     const randomIndex = Math.floor(Math.random() * fighters.length);
-    imagen.src = personajes[randomIndex]
+    imagen.src = fighters[randomIndex]
     imagen.style.display = "block";
 }
 
